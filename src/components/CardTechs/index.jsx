@@ -11,6 +11,7 @@ const CardsTechs = ({ list, token, setTechs }) => {
     setTechs(list.filter((tech) => tech.id !== techId));
     console.log(list);
   };
+  console.log(list);
 
   const history = useHistory();
 

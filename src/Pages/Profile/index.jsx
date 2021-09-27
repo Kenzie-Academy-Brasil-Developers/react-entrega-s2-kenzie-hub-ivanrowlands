@@ -6,7 +6,7 @@ import { Container, Content } from "./styles";
 
 const Profile = () => {
   const [user, setUser] = useState({});
-  const [token, setToken] = useState(() => {
+  const [token] = useState(() => {
     const localToken = localStorage.getItem("token") || "";
     return JSON.parse(localToken);
   });
@@ -29,7 +29,7 @@ const Profile = () => {
       <Content>
         <h1>{user.name}</h1>
         <div>
-          <FormAddTechs token={token} setTechs={setTechs} />
+          <FormAddTechs token={token} setTechs={setTechs} techs={techs} />
           <h4>Tecnologias aprendidas:</h4>
           <CardsTechs list={techs} token={token} setTechs={setTechs} />
         </div>
