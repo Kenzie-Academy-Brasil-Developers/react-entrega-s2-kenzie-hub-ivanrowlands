@@ -5,17 +5,21 @@ export const Container = styled.div`
   margin-top: 20px;
   justify-content: center;
   text-align: center;
-  height: 100vh;
+  padding-top: 10%;
+  border
 `;
 
 export const Content = styled.div`
-  height: 400px;
-  width: 240px;
-  background: #fff;
+    border-radius: 30px;
+    height: 400px;
+    width: 240px;
+    background: #fff;
   h1 {
     font-size: 1.5rem;
-    color: #021ca5;
+    color: #4a5485;
     background-color: #fff;
+    border-top-left-radius: 30px;
+    border-top-right-radius: 30px;
   }
   div {
     background-color: #fff;

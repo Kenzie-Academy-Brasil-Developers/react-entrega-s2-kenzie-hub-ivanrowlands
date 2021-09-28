@@ -20,9 +20,10 @@ export const Content = styled.ul`
   li {
     margin: 5px;
     background-color: #fff;
-    border: 1px solid #021ca5;
+    border: 1px solid #4a5485;
     border-radius: 5px;
     padding: 5px;
     width: 150px;
+    transition: 0.8s ease
   }
 `;

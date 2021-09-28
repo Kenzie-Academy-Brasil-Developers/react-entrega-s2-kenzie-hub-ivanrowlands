@@ -14,7 +14,7 @@ export const Content = styled.div`
   background: #fff;
   h1 {
     font-size: 1.5rem;
-    color: #021ca5;
+    color: #4a5485;
     background-color: #fff;
   }
   div {

@@ -1,10 +1,10 @@
 import styled from "styled-components";
 
 export const Container = styled.button`
-  background: ${(props) => (props.whiteSchema ? "#fff" : "#021ca5")};
-  color: ${(props) => (props.whiteSchema ? "#021ca5" : "#fff")};
+  background: ${(props) => (props.whiteSchema ? "#fff" : "#4a5485")};
+  color: ${(props) => (props.whiteSchema ? "#4a5485" : "#fff")};
   height: 35px;
-  border: 2px solid #021ca5;
+  border: 2px solid #4a5485;
   border-radius: 5px;
   font-family: "Pacifico", cursive;
   width: ${(props) => (props.formSchema ? "100px" : "100%")};
